@@ -5,7 +5,7 @@ using namespace cv;
 int main()
 {
     printf("Hello\n");
-
+    std::cout << "Hello!" << std::endl;
     cv::Mat image = cv::imread(RESOURCE_DIR"lena.png");
     cv::imshow("Display", image);
 
